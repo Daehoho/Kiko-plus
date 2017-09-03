@@ -6,25 +6,13 @@
 name:               "Daeho's Blog"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
-  github:           your-id
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  facebook:         supreme2705@gmail.com
+  github:           supreme2705@gmail.com 
+  email:            supreme2705@gmail.com
 
 copyright:
   year:             2017
-  name:             Kiko
+  name:             Daeho
 
 # Google-analytics
 google-analytics:
@@ -32,7 +20,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "Daehoho"
 
 # URL
 url:                "https://daehoho.github.io" # the base hostname & protocol for your site
@@ -62,7 +50,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
+    url:            ""
 
 # Sass
 sass:
