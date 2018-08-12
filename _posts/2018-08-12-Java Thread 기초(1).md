@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Java Basic] - Thre
+title: "[Java Basic] - Thread(1)"
 description: "Java Baisc Thread  "
 date: 2018-08-12
 tags: [Java, Thread]
@@ -64,3 +64,6 @@ public class Main {
 위와 같은 코드를 실행하게 되면 쓰레드가 생성되고 실행되게 됩니다.
 > Thread가 시작되면 수행되는 메소드는 run() 메소드입니다.  
 > Thread를 시작하는 메소드는 start()입니다.  
+
+Thread를 생성하여 실행되는 코드는 순서를 보장하지 않습니다. 예를 들어 위의 코드에서 보면 Runnable 인터페이스를 이용한 코드가 먼저 실행될것 같지만 그렇지 않을 수도 있습니다. 
+그 이유는 start메소드의 경우 실행되면 jvm은 start 메소드가 끝날때까지 기다리는것이 아니라 다음 줄의 start메소드를 실행하게 됩니다. 그러므로 순서를 보장하지 않습니다.
