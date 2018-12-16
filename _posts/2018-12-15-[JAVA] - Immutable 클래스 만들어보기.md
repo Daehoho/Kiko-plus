@@ -8,7 +8,7 @@ comments: false
 share: true
 ---
 
-String이 Immutable, final인 이유에 대해서 알아보면서 Immutable의 장점에 대해서 알아보았습니다. 그렇다면 이제 Immutable 클래스를 만들어보겠습니다.
+[String이 Immutable, final인 이유](https://daehoho.github.io/2018-12-09/JAVA-String%EC%9D%B4-Immutable,-final%EC%9D%B8-%EC%9D%B4%EC%9C%A0/)에 대해서 알아보면서 Immutable의 장점에 대해서 알아보았습니다. 그렇다면 이제 Immutable 클래스를 만들어보겠습니다.
 다시 한번 정리해보자면 Immutable 클래스는 일단 인스턴스화 되면 그 값은 절대로 변하지 않는 클래스 입니다. 
 그렇기 때문에 값이 바뀌는 것에 대해 걱정할 필요가 없어 캐싱 목적으로 유용합니다. 또한 thread-safe 합니다.
 
